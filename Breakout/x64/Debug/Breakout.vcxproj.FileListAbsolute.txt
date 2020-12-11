@@ -1,0 +1,2 @@
+E:\Bitno\C++\Posao\Gamepires\Breakout\x64\Debug\Breakout.exe
+E:\Bitno\C++\Posao\Gamepires\Breakout\x64\Debug\Breakout.pdb

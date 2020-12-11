@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Level
+	RowCount="12"
+	ColumnCount="8"
+	RowSpacing="8"
+	ColumnSpacing="13"
+	BackgroundMusic="Sounds/Background2.mp3"
+	PlayerTexture="Textures/Player/city.png"
+	BackgroundTexture="Textures/Boards/Board_04.png">
+	<BrickTypes>
+		<!-- Soft Brick -->
+		<BrickType
+			Id="S"
+			Texture="Textures/Bricks/Soft.png"
+			HitPoints="1"
+			HitSound="Sounds/Hit_01.wav"
+			BreakSound="Sounds/Break_01.wav"
+			BreakScore="50" />
+		<!--Special Soft Brick -->
+		<BrickType
+			Id="s"
+			Texture="Textures/Bricks/SpecialSoft.png"
+			HitPoints="1"
+			HitSound="Sounds/Hit_01.wav"
+			BreakSound="Sounds/Break_01.wav"
+			BreakScore="50" />
+		<!-- Medium Brick -->
+		<BrickType
+			Id="M"
+			Texture="Textures/Bricks/Medium.png"
+			HitPoints="2"
+			HitSound="Sounds/Hit_02.wav"
+			BreakSound="Sounds/Break_02.wav"
+			BreakScore="100" />
+		<!--Special Medium Brick -->
+		<BrickType
+			Id="m"
+			Texture="Textures/Bricks/SpecialMedium.png"
+			HitPoints="2"
+			HitSound="Sounds/Hit_02.wav"
+			BreakSound="Sounds/Break_02.wav"
+			BreakScore="50" />
+		<!-- Hard Brick -->
+		<BrickType
+			Id="H"
+			Texture="Textures/Bricks/Hard.png"
+			HitPoints="3"
+			HitSound="Sounds/Hit_03.wav"
+			BreakSound="Sounds/Break_03.wav"
+			BreakScore="150" />
+		<!--Special Hard Brick -->
+		<BrickType
+			Id="h"
+			Texture="Textures/Bricks/SpecialHard.png"
+			HitPoints="3"
+			HitSound="Sounds/Hit_03.wav"
+			BreakSound="Sounds/Break_03.wav"
+			BreakScore="50" />
+		<!-- Impenetrable Brick -->
+		<BrickType
+			Id="I"
+			Texture="Textures/Bricks/Impenetrable.png"
+			HitPoints="Infinite"
+			HitSound="Sounds/Hit_04.wav" />
+		
+	</BrickTypes>
+	<Bricks>
+		_ _ _ _ _ S m H
+		_ I I I _ I _ I
+		S S S s S S S M
+	</Bricks>
+</Level>
